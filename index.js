@@ -1,5 +1,4 @@
 const { exec } = require("child_process");
+const config = require("./config.json");
 
-console.log('bite')
-
-exec('echo "Ma jolie phrase est belle."', (error, stdout, stderr) => {})
+console.log(config)
